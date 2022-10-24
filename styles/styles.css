@@ -24,12 +24,13 @@
 /* TYPOGRAPHY */
 @font-face {
     font-family: Eurofurenceregular;
-    src: url(/fonts/eurofurence/eurofurence.ttf);
+    /* src: url(/fonts/eurofurence/eurofurence.ttf); */
+    src: url(../fonts/eurofurence/eurof55.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(/fonts/Lato/Lato-Regular.ttf);
+    src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
 /* BASICS   */

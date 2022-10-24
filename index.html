@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<section class="modal-container full" onclick="toggleModal()">
+<section class="modal-container full" onclick="onOpenModal()">
     <section class="modal">
         <h2 class="modal-title">Read Me</h2>
         <p class="modal-text">
@@ -55,7 +55,7 @@
                     doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                     nullapariatur...</p>
-                <button class="btn-read" onclick="toggleModal()">Continue Reading </button>
+                <button class="btn-read" onclick="onOpenModal()">Continue Reading </button>
             </div>
         </article>
 
@@ -70,7 +70,7 @@
 
                 <p>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="btn-read" onclick="toggleModal()">Continue Reading </button>
+                <button class="btn-read" onclick="onOpenModal()">Continue Reading </button>
             </div>
 
         </article>
@@ -85,7 +85,7 @@
                     doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="btn-read" onclick="toggleModal()">Continue Reading </button>
+                <button class="btn-read" onclick="onOpenModal()">Continue Reading </button>
             </div>
         </article>
 
@@ -121,7 +121,7 @@
         function toggleMenu() {
             document.body.classList.toggle('menu-open');
         }
-        function toggleModal() {
+        function onOpenModal() {
             document.body.classList.toggle('modal-open')
         }
     </script>
