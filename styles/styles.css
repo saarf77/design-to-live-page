@@ -211,8 +211,12 @@ header {
     transition: 0.4s;
 }
 
-.main-nav li a.active {
-    /* box-shadow: inset 0px -2px 0 var(--clrprimary); */
+.main-nav li.active a{
+    color: var(--clrprimary);
+  }
+
+.main-nav li.active {
+    box-shadow: inset 0px -6px 0 var(--clrprimary);
     color: var(--clrprimary);
   }
 
@@ -526,12 +530,11 @@ footer.main-footer {
 
     .main-nav ul li a:hover {
         box-shadow: inset 0 -6px 0 var(--clrprimary);
-
     }
 }
 
 .main-nav ul a:focus {
-    box-shadow: inset 0 -6px 0 var(--clrprimary);
+    /* box-shadow: inset 0 -6px 0 var(--clrprimary); */
     color: var(--clrprimary);
 }
 
